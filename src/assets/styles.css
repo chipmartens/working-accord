@@ -201,9 +201,6 @@ p{text-wrap:pretty}
   .story{min-height:0;opacity:1;padding:40px 0;border-top:1px solid var(--rule-dark)}
   .story .m-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;margin-bottom:24px}
   .stories{padding:0}
-  .logos{grid-template-columns:repeat(2,1fr)}
-  .logos li:nth-child(4n){border-right:1px solid var(--rule)}
-  .logos li:nth-child(2n){border-right:0}
   .refs{columns:1}
   .timeline{grid-auto-columns:minmax(260px,78vw)}
 }
@@ -238,9 +235,6 @@ p{text-wrap:pretty}
 .timeline{scroll-padding-inline:var(--m)}
 .timeline li{display:flex;flex-direction:column}
 .timeline li img{order:9;margin:12px 0 0}
-.logos{border-top:0;grid-template-columns:repeat(4,1fr);row-gap:8px}
-.logos li,.logos li:nth-child(4n),.logos li:nth-child(2n){border:0;height:120px;justify-content:flex-start}
-.sponsors .logos{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px 0}
 .full-photo::after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.6))}
 .full-photo figcaption{z-index:1}
 
@@ -521,3 +515,17 @@ html{scrollbar-color:#8b8f86 transparent;scrollbar-width:thin}
 /* one sentence per line in two-sentence headlines: no orphans */
 h1 .ln,h2 .ln{display:block}
 .pays .sec-head.center h2{max-width:none}
+
+/* final pass */
+.ex-before,.ex-before .ex-label{color:rgba(255,255,255,.62)}
+.ex-before p:last-child{text-decoration-color:rgba(255,255,255,.35)}
+.ex-after{background:#161a0d;box-shadow:inset 0 0 0 2px var(--vis)}
+.ex-after .ex-label{font-size:14px;font-weight:600}
+.ex-after p{font-size:21px}
+.ex:hover .ex-after{box-shadow:inset 0 0 0 3px var(--vis)}
+.ex-after .ex-rules a{display:inline-flex;align-items:center;justify-content:center;min-width:28px;min-height:28px;padding:0 6px;margin-left:4px;border:1px solid var(--vis);border-radius:4px;text-decoration:none}
+.ex-after .ex-rules a:hover{background:var(--vis);color:var(--black)}
+.page-hero.photo::after{background:linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.25) 28%,rgba(0,0,0,.5) 52%,rgba(0,0,0,.92) 100%)}
+.page-hero .ln.hl{color:var(--vis)}
+.archive-band{margin:0}
+@media (max-width:640px){.page-hero.photo::after{background:linear-gradient(180deg,rgba(0,0,0,.75),rgba(0,0,0,.55) 40%,rgba(0,0,0,.94))}}

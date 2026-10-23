@@ -2,7 +2,7 @@
  {
   "role": "Customer support agent",
   "sector": "Tech",
-  "place": "support desk at a Fortune 500 software company (US study)",
+  "place": "support desk at one Fortune 500 software company, agents in several countries (study)",
   "before": "New agents took months to get good. The answers lived in the heads of a few veterans.",
   "after": "An assistant suggests replies drawn from the best agents' chats. The agent decides what to send. The least-skilled agents gained the most, about 36% more issues solved an hour.",
   "rules": [
@@ -17,7 +17,7 @@
   "sector": "Health",
   "place": "national screening program, Sweden (trial)",
   "before": "Two radiologists read every mammogram, thousands a week.",
-  "after": "Software sorts the scans and flags spots to look at. Radiologists make every call. They found 29% more cancers and did 44% less reading.",
+  "after": "Software sorts the scans and flags spots to look at. Radiologists make every call. In the 2025 analysis of about 106,000 women, they found 29% more cancers with 44% less reading.",
   "rules": [
    2,
    8
@@ -157,9 +157,9 @@
  {
   "role": "Management consultant",
   "sector": "Office and finance",
-  "place": "global consulting firm (study)",
+  "place": "BCG consultants (study)",
   "before": "Long days drafting slides and analysis from scratch.",
-  "after": "On work the tool was good at, consultants finished more, faster and better. On a task it was bad at, the ones who trusted it were 19 points less likely to be right. Knowing the difference is the job.",
+  "after": "On work the tool was good at, consultants finished more, faster and better. On a task it was bad at, the ones who trusted it were 19 points less likely to be right.",
   "rules": [
    3,
    5
@@ -172,7 +172,7 @@
   "sector": "Tech",
   "place": "open-source projects (trial)",
   "before": "Writing and reviewing code by hand on projects they knew inside out.",
-  "after": "With AI tools they took 19% longer, while believing they were about 20% faster. The lesson the accord keeps: measure it, and keep the skill to check it.",
+  "after": "With AI tools they took 19% longer, while believing they were about 20% faster.",
   "rules": [
    5
   ],
@@ -372,7 +372,7 @@
   "sector": "Transport and logistics",
   "place": "distribution centre, Nisku, Alberta",
   "before": "Ten hours a day walking the aisles with a scanner, pulling orders. Robots that bring the shelves to a station were coming, and most picking jobs with them.",
-  "after": "He heard ninety days out, in writing. He took the paid robotics maintenance course and had first claim on a technician job. Coworkers who chose to leave got severance above the legal minimum.",
+  "after": "He heard ninety days out, in writing. The paid robotics course had twelve seats for forty pickers, and he didn't get one. He left with severance above the legal minimum and is still looking for steady work.",
   "rules": [
    9,
    10
@@ -384,7 +384,7 @@
   "sector": "Transport and logistics",
   "place": "customs brokerage, Emerson, Manitoba",
   "before": "Keying shipment details from paper invoices into customs forms, one truck at a time, while drivers waited at the line.",
-  "after": "Software reads the invoices and fills the forms. The broker handles the shipments that don't fit, and caught it filing combine parts under the wrong tariff code for a week.",
+  "after": "Software reads the invoices and fills the forms. The broker handles the shipments that don't fit, and caught it filing tractor parts under the wrong tariff code for a week.",
   "rules": [
    3,
    5
@@ -408,7 +408,7 @@
   "sector": "Transport and logistics",
   "place": "airline freight office, Iqaluit, Nunavut",
   "before": "Working out weight and balance by hand for every flight, with groceries and medicine competing for the same space.",
-  "after": "Software does the weight and balance math. When there isn't room for everything, the agent decides what flies first. Insulin before pop is still a person's call.",
+  "after": "Software does the weight and balance math. When there isn't room for everything, the agent decides what flies first. Medical supplies for a fly-in community go before anything that can wait a day.",
   "rules": [
    1,
    2
@@ -466,7 +466,7 @@
   "sector": "Retail and service",
   "place": "car dealership, Red Deer, Alberta",
   "before": "Writing up repair orders and phoning customers with quotes, back to back, while the bays waited.",
-  "after": "A tool reads the technician's notes and drafts the quote. The advisor calls the customer herself and says which repairs can wait. That honesty is why they keep coming back.",
+  "after": "A tool reads the technician's notes and drafts the quote. The advisor calls the customer herself and says which repairs can wait and which can't.",
   "rules": [
    1,
    2
@@ -790,7 +790,7 @@
   "sector": "Tech",
   "place": "software company, Montreal",
   "before": "Running the same regression tests by hand before every release, clicking through the same screens.",
-  "after": "Automated tests run overnight. The tester spends the day trying to break the app the way real people do, like a farmer on one bar of signal in a combine.",
+  "after": "Automated tests run overnight. The tester spends the day trying to break the app the way real people do: one bar of signal, a cracked screen, a Friday rush.",
   "rules": [
    1,
    3

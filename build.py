@@ -84,10 +84,10 @@ def examples_html(body):
     sectors = sorted({e["sector"] for e in data})
     slug = lambda s: re.sub(r"[^a-z]+", "-", s.lower()).strip("-")
     chips = "\n    ".join(f'<button type="button" class="chip" aria-pressed="false" data-sector="{slug(s)}">{html.escape(s)}</button>' for s in sectors)
-    kinds = {"study": "Study", "changed": "A job that changed", "composite": "Illustration"}
+    kinds = {"study": "Study", "changed": "Illustration: a job that changed", "composite": "Illustration"}
     rows = []
     for i, e in enumerate(data, 1):
-        rules = ", ".join(f'<a href="{{{{base}}}}accord/#rule-{r}">{r}</a>' for r in e["rules"])
+        rules = "".join(f'<a href="{{{{base}}}}accord/#rule-{r}" aria-label="Rule {r}">{r}</a>' for r in e["rules"])
         src = f'<a href="{{{{base}}}}sources/#s{e["source"]}" class="fn" aria-label="Source {e["source"]}">{e["source"]}</a>' if e.get("source") else ""
         rows.append(f"""<li class="ex ex-{e.get('kind','composite')}" data-sector="{slug(e['sector'])}" id="ex-{i}">
       <div class="ex-who"><p class="ex-kind">{kinds.get(e.get('kind','composite'))}</p><h3>{html.escape(e['role'])}</h3><p class="ex-place">{html.escape(e['place'])}</p></div>
@@ -111,7 +111,9 @@ def render(p, layout, nav):
            .replace("{{bodyclass}}", p.get("bodyclass", "page"))
            .replace("{{nav}}", nav(p["path"]))
            .replace("{{content}}", body))
-    out = re.sub(r"[ \t]*<!--.*?-->", "", out, flags=re.S)  # internal review notes never ship
+    out = re.sub(r"[ \t]*<!--.*?-->", "", out, flags=re.S)
+    if p["path"] == "/404":
+        out = re.sub(r'<link rel="canonical"[^>]*>\n?', "", out)  # internal review notes never ship
     return out.replace("{{base}}", BASE)
 
 
