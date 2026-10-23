@@ -1,0 +1,19 @@
+# The Working Accord
+
+> Ten plain-language rules for how people and AI share work in Canada, with sourced evidence on who paid when technology replaced jobs in the past. Started by mode40, a software company in Winnipeg, Manitoba, led by Cameron Bergen and Tracy Gromniski. mode40 makes software that uses AI and discloses that stake. Free to quote and adapt; please cite the page URL.
+
+The ten rules: (1) Machines take the repetition; people keep the judgment. (2) A person signs off on anything that matters. (3) Questioning the tool is part of the job. (4) Show the work, the machine's and yours. (5) Keep the skill to check it. (6) No secret scorekeeping. (7) Your know-how is not free training data. (8) Time saved gets shared, in writing. (9) If a job is going to change or go, the person hears first: 90 days' notice or the legal minimum if longer, retraining, severance. (10) A headcount number is not a plan.
+
+## Pages
+- [The ten rules]({{site}}/accord/): each rule with what it asks and why.
+- [On the job]({{site}}/on-the-job/): 68 Canadian jobs before and after AI, by sector, showing what the software takes on and the part that stays with a person.
+- [Evidence]({{site}}/evidence/): AI and jobs in Canada and the US; weavers, telephone operators, wages; Statistics Canada exposure estimates.
+- [History]({{site}}/history/): who the Luddites were, whether ATMs reduced bank tellers, spreadsheets and bookkeepers, technological unemployment.
+- [For workers]({{site}}/workers/): questions to ask your employer; notice periods in Manitoba, Ontario and federally; EI, retraining and privacy resources.
+- [For employers]({{site}}/employers/): a checklist for bringing in AI fairly, and what Canadian law already requires.
+- [Questions]({{site}}/faq/): short sourced answers to common questions about AI and jobs in Canada.
+- [Who's behind it]({{site}}/about/): why mode40 started the accord.
+- [Sources]({{site}}/sources/): every study, with funding and vendor ties.
+
+## Full text
+- [llms-full.txt]({{site}}/llms-full.txt)

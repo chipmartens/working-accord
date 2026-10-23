@@ -1,0 +1,29 @@
+<!--meta {"path": "/on-the-job/", "order": 15, "nav": "On the job", "title": "AI at Work: Before and After, Job by Job", "description": "Dozens of Canadian jobs, before and after AI: what the software takes on, and the part that stays with a person. Sorted by sector.", "crumb": "On the job", "type": "article"} -->
+<section class="page-hero photo">
+  <img class="ph-img" src="https://images.unsplash.com/photo-1652211955967-99c892925469?w=1800&q=75&auto=format" alt="Workers on a food production line." style="object-position:50% 50%" fetchpriority="high">
+  <p class="crumb"><a href="{{base}}">Home</a> / On the job</p>
+  <h1>Before and after, <span class="hl">job by job</span></h1>
+  <p class="answer"><strong>{{EXAMPLE_COUNT}} kinds of Canadian work, before and after AI.</strong> In every one, the software takes the repetition and a person keeps the call. Most are illustrations of how the ten rules apply to a real kind of job. The ones marked Study come from published research.</p>
+</section>
+
+<section class="ex-wrap" aria-labelledby="ex-h">
+  <h2 id="ex-h" class="visually-hidden">Examples by sector</h2>
+  <div class="ex-filter" role="group" aria-label="Filter by sector">
+    <button type="button" class="chip" aria-pressed="true" data-sector="all">All</button>
+    {{SECTOR_CHIPS}}
+  </div>
+  <p class="ex-count" id="exCount" role="status" aria-live="polite"></p>
+  <ol class="ex-list" id="exList">
+    {{EXAMPLES}}
+  </ol>
+</section>
+
+<div class="page-body">
+  <div class="prose">
+    <nav class="next-links" aria-label="Keep reading">
+      <a href="{{base}}accord/"><span>The rules behind every example</span>The ten rules</a>
+      <a href="{{base}}workers/"><span>If it's your job</span>Questions to ask your employer</a>
+      <a href="{{base}}evidence/"><span>The research</span>What the studies say</a>
+    </nav>
+  </div>
+</div>

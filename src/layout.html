@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Working Accord">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="https://workingaccord.ca/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Working Accord: ten rules for sharing work with AI.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{base}}assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{base}}assets/icon-512.png">
+<link rel="alternate" type="text/plain" title="LLM summary" href="{{base}}llms.txt">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{base}}assets/styles.css">
+<script>document.documentElement.classList.add("js")</script>
+<script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body class="{{bodyclass}}">
+<a class="skip" href="#main">Skip to content</a>
+{{preview}}
+<header class="bar" id="bar">
+  <a class="mark" href="{{base}}">The Working Accord</a>
+  <nav class="links" aria-label="Main">
+{{nav}}
+  </nav>
+  <a class="pill" href="{{base}}sign/">Sign the accord</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+</header>
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu">
+{{nav}}
+    <a href="{{base}}sign/">Sign the accord</a>
+  </nav>
+</div>
+
+<main id="main" tabindex="-1">
+{{content}}
+</main>
+
+<footer class="foot">
+  <div class="foot-grid">
+    <div>
+      <p class="foot-lead">The Working Accord is convened by mode40, a software company in Winnipeg, Manitoba. Use the ten rules freely.</p>
+      <p><a href="mailto:marketing@mode40.com">Corrections and questions</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="{{base}}accord/">The ten rules</a>
+      <a href="{{base}}on-the-job/">On the job</a>
+      <a href="{{base}}evidence/">Evidence</a>
+      <a href="{{base}}history/">History</a>
+      <a href="{{base}}workers/">For workers</a>
+      <a href="{{base}}employers/">For employers</a>
+      <a href="{{base}}faq/">Questions</a>
+    </nav>
+    <nav aria-label="About">
+      <a href="{{base}}sign/">Sign</a>
+      <a href="{{base}}signers/">Who has signed</a>
+      <a href="{{base}}about/">Who's behind it</a>
+      <a href="{{base}}sources/">Sources</a>
+      <a href="{{base}}privacy/">Privacy</a>
+    </nav>
+  </div>
+  <p class="giant" aria-hidden="true">Working Accord</p>
+</footer>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="{{base}}assets/site.js" defer></script>
+</body>
+</html>

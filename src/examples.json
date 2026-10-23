@@ -1,0 +1,836 @@
+[
+ {
+  "role": "Customer support agent",
+  "sector": "Tech",
+  "place": "support desk at a Fortune 500 software company (US study)",
+  "before": "New agents took months to get good. The answers lived in the heads of a few veterans.",
+  "after": "An assistant suggests replies drawn from the best agents' chats. The agent decides what to send. The least-skilled agents gained the most, about 36% more issues solved an hour.",
+  "rules": [
+   1,
+   7
+  ],
+  "kind": "study",
+  "source": 1
+ },
+ {
+  "role": "Radiologist, breast screening",
+  "sector": "Health",
+  "place": "national screening program, Sweden (trial)",
+  "before": "Two radiologists read every mammogram, thousands a week.",
+  "after": "Software sorts the scans and flags spots to look at. Radiologists make every call. They found 29% more cancers and did 44% less reading.",
+  "rules": [
+   2,
+   8
+  ],
+  "kind": "study",
+  "source": 2
+ },
+ {
+  "role": "Line inspector",
+  "sector": "Manufacturing",
+  "place": "auto parts plant, Windsor, Ontario",
+  "before": "Eight hours under bright lights watching brake rotors roll past, looking for hairline cracks. By the last hour of the shift, every rotor looked the same.",
+  "after": "A camera flags anything that looks off. She pulls the flagged rotors and makes the call, and she was the one who noticed it rejecting good parts for two days after the lights were changed.",
+  "rules": [
+   1,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Welder",
+  "sector": "Manufacturing",
+  "place": "trailer fabrication shop, Saint John, New Brunswick",
+  "before": "Long runs of the same fillet weld on trailer frames, day after day, with the grinder and the fumes waiting at the end of each one.",
+  "after": "A robot cell lays the repeat welds. He sets up each run and signs off on every frame. The hours it freed went to custom repair work and two apprentices, as the shop agreed in writing.",
+  "rules": [
+   1,
+   2,
+   8
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "CNC machinist",
+  "sector": "Manufacturing",
+  "place": "machine shop, Laval, Quebec",
+  "before": "Feeding blanks into the same mill and checking every tenth part with calipers. One bad batch could mean a weekend of rework.",
+  "after": "Sensors watch tool wear and stop the mill before parts drift. The machinist decides when to change tools, and when the system says a part is fine but the cut sounds wrong, she stops it anyway.",
+  "rules": [
+   1,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Millwright",
+  "sector": "Manufacturing",
+  "place": "paper mill, Thunder Bay, Ontario",
+  "before": "Fixing whatever broke, usually at three in the morning, usually after it had already stopped the line.",
+  "after": "Vibration sensors warn of a failing bearing days ahead. He decides which warnings are real and schedules the repair. His notes on each fix go into the system, and his contract pays him for them.",
+  "rules": [
+   1,
+   7
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Production planner",
+  "sector": "Manufacturing",
+  "place": "furniture plant, Winkler, Manitoba",
+  "before": "Rebuilding the weekly schedule by hand every time an order changed or a supplier ran late.",
+  "after": "Software drafts the schedule in minutes. The planner walks the floor with the lead hands and fixes what it got wrong, like booking the finishing booth on the day it gets cleaned.",
+  "rules": [
+   1,
+   2,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Quality technician",
+  "sector": "Manufacturing",
+  "place": "aerospace parts plant, Mirabel, Quebec",
+  "before": "Measuring turbine blade profiles by hand and typing every reading into a spreadsheet. One inspection report took most of a day.",
+  "after": "A scanner measures each blade and writes the report. The technician signs it. Last spring he refused one because the scanner had been checking against an old revision of the drawing.",
+  "rules": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Grain elevator operator",
+  "sector": "Food and agriculture",
+  "place": "inland grain terminal, west-central Saskatchewan",
+  "before": "Grading every truckload by eye and hand at harvest, with farmers lined up down the road and the shift running past midnight.",
+  "after": "An imaging grader gives a first read on each sample. The operator sets the final grade, and when a farmer disputes it, she walks him through the sample kernel by kernel.",
+  "rules": [
+   1,
+   2,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Grain farmer",
+  "sector": "Food and agriculture",
+  "place": "family farm near Brandon, Manitoba",
+  "before": "Evenings at the kitchen table with yield maps and seed catalogues, working out what to plant where.",
+  "after": "Software suggests a seeding plan field by field. He overrules it on the low quarter that floods every few springs, because he has watched it flood and the software hasn't.",
+  "rules": [
+   1,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Food safety inspector",
+  "sector": "Food and agriculture",
+  "place": "poultry plant, southern Manitoba",
+  "before": "Checking carcasses for contamination at a line speed that left no room to look twice.",
+  "after": "Cameras flag the birds that need a second look. The inspector gives that second look and decides whether a lot gets held. Nobody on the line is ranked by what the cameras count.",
+  "rules": [
+   1,
+   2,
+   6
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Lobster fisher",
+  "sector": "Food and agriculture",
+  "place": "lobster boat, southwest Nova Scotia",
+  "before": "Filling in catch logbooks by hand at the end of a fourteen-hour day on the water.",
+  "after": "The electronic log fills itself from the GPS and the scale. The captain checks it before it goes in, and decides where to set traps from decades of knowing that bottom.",
+  "rules": [
+   1,
+   2,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Management consultant",
+  "sector": "Office and finance",
+  "place": "global consulting firm (study)",
+  "before": "Long days drafting slides and analysis from scratch.",
+  "after": "On work the tool was good at, consultants finished more, faster and better. On a task it was bad at, the ones who trusted it were 19 points less likely to be right. Knowing the difference is the job.",
+  "rules": [
+   3,
+   5
+  ],
+  "kind": "study",
+  "source": 4
+ },
+ {
+  "role": "Experienced programmer",
+  "sector": "Tech",
+  "place": "open-source projects (trial)",
+  "before": "Writing and reviewing code by hand on projects they knew inside out.",
+  "after": "With AI tools they took 19% longer, while believing they were about 20% faster. The lesson the accord keeps: measure it, and keep the skill to check it.",
+  "rules": [
+   5
+  ],
+  "kind": "study",
+  "source": 3
+ },
+ {
+  "role": "Dairy farmer",
+  "sector": "Food and agriculture",
+  "place": "dairy farm, Eastern Townships, Quebec",
+  "before": "Up at four to watch each cow for signs of illness or heat, keeping track in a notebook that lived in the barn.",
+  "after": "Collars track how each cow moves and eats and flag the ones that seem off. She decides who needs the vet. Her herd records stay hers, and the collar company has to ask before using them.",
+  "rules": [
+   1,
+   7
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Greenhouse grower",
+  "sector": "Food and agriculture",
+  "place": "pepper greenhouse, Leamington, Ontario",
+  "before": "Walking the rows every morning checking leaves for pests, and adjusting heat and water from a clipboard.",
+  "after": "Sensors run the climate and spot early pest damage. The grower decides when to spray and when to wait. He also caught the system venting heat on cold mornings and had the setting fixed.",
+  "rules": [
+   1,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Registered nurse",
+  "sector": "Health",
+  "place": "medical ward, Halifax",
+  "before": "The first hour of every shift went to charting and chasing medication records, before she had said hello to a patient.",
+  "after": "Notes draft themselves from her voice and the monitors. She reads and signs every one. That first hour goes to patients, like the man who is frightened about his surgery tomorrow.",
+  "rules": [
+   1,
+   2,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Personal support worker",
+  "sector": "Health",
+  "place": "long-term care home, North Bay, Ontario",
+  "before": "Rushing between rooms with a paper list, then writing up the care log from memory at the end of the shift.",
+  "after": "A tablet logs routine care as it happens. The minutes saved stay with residents, and the home wrote that into its staffing plan instead of cutting a position.",
+  "rules": [
+   1,
+   8,
+   10
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Pharmacist",
+  "sector": "Health",
+  "place": "community pharmacy, Charlottetown, PEI",
+  "before": "Checking every prescription against interaction lists while the phone rang and the lineup grew.",
+  "after": "Software flags interactions and drafts the counselling notes. The pharmacist decides what is real, and caught it clearing two drugs as safe for a patient whose kidney results said otherwise.",
+  "rules": [
+   2,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Radiology technologist",
+  "sector": "Health",
+  "place": "regional hospital, Kamloops, British Columbia",
+  "before": "Hours a day re-checking image quality and sorting scans into the right queue for the radiologists.",
+  "after": "The system sorts scans and suggests which look urgent. A radiologist still reads every image and signs every report. The tech has time to position patients properly and keep the nervous ones calm.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Nurse practitioner",
+  "sector": "Health",
+  "place": "fly-in community clinic, northwestern Ontario",
+  "before": "Patients waited weeks for a short visit, and half of that visit went to typing.",
+  "after": "A scribe tool drafts the visit notes while they talk. She checks and signs each one. The visit goes to the person in the chair, and her eyes stay off the screen.",
+  "rules": [
+   1,
+   2,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Medical transcriptionist",
+  "sector": "Health",
+  "place": "hospital records office, Regina",
+  "before": "Nineteen years of typing doctors' dictation, word for word. Speech software got good enough that most of that typing was no longer needed.",
+  "after": "She heard in writing, ninety days ahead. Paid retraining, then first claim on the new role: checking machine-drafted notes for the mistakes only someone who has typed thousands of them would spot.",
+  "rules": [
+   9,
+   5
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Electrician",
+  "sector": "Trades and construction",
+  "place": "commercial job site, Lethbridge, Alberta",
+  "before": "Hours on every new build cross-checking panel schedules against the drawings and marking up revisions by hand.",
+  "after": "Software checks the drawings against the electrical code and flags conflicts. She decides which flags matter on site, and found one where it had read a 15-amp circuit as 20.",
+  "rules": [
+   2,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Plumber",
+  "sector": "Trades and construction",
+  "place": "home renovations, Trois-Rivières, Quebec",
+  "before": "Writing quotes at the kitchen table after a full day of work, often for jobs he never got.",
+  "after": "An app drafts quotes from his photos and notes. He fixes the prices and the parts and gets his evenings back. The supplier behind the app pays him for the pricing data he agreed to share.",
+  "rules": [
+   1,
+   7
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Site superintendent",
+  "sector": "Trades and construction",
+  "place": "condo build, Surrey, British Columbia",
+  "before": "Daily reports and safety logs ate the mornings, so walking the site got pushed to the afternoon.",
+  "after": "Reports draft from photos and the crews' check-ins. He walks the site first thing. Every safety log still needs his signature, and he reads each one before he signs.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Heavy equipment operator",
+  "sector": "Trades and construction",
+  "place": "highway twinning project near Swift Current, Saskatchewan",
+  "before": "Grading road bed by eye with a spotter, checking stakes, then regrading wherever the survey crew found it off.",
+  "after": "GPS guidance holds the grade. The operator still reads the ground, and when the machine wanted to cut through soft clay the model didn't know about, he stopped and called the engineer.",
+  "rules": [
+   1,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "HVAC technician",
+  "sector": "Trades and construction",
+  "place": "heating and cooling company, St. John's, Newfoundland and Labrador",
+  "before": "Diagnosing heat pump faults by trial and error, sometimes three visits for one problem.",
+  "after": "A diagnostic tool reads the unit and suggests a likely fault. The tech decides the fix, and keeps sharp by working the tricky ones by hand first, on paid training time the company set aside.",
+  "rules": [
+   5,
+   8
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Truck dispatcher",
+  "sector": "Transport and logistics",
+  "place": "trucking company, Winnipeg",
+  "before": "Juggling forty trucks across the Prairies with a whiteboard and two phones, drivers calling in from the Trans-Canada.",
+  "after": "Software builds routes and load plans. The dispatcher takes the calls that matter, like a driver saying he's too tired to push on. She backs him, and no driver is graded by the app.",
+  "rules": [
+   1,
+   2,
+   6
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Bus scheduler",
+  "sector": "Transport and logistics",
+  "place": "city transit agency, Quebec City",
+  "before": "Building next season's schedules in spreadsheets, trip by trip, over about six weeks.",
+  "after": "Software drafts the schedule in a day. She spends the rest on what it misses, like the hospital shift change that packs the 7 bus at 6:45.",
+  "rules": [
+   1,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Warehouse picker",
+  "sector": "Transport and logistics",
+  "place": "distribution centre, Nisku, Alberta",
+  "before": "Ten hours a day walking the aisles with a scanner, pulling orders. Robots that bring the shelves to a station were coming, and most picking jobs with them.",
+  "after": "He heard ninety days out, in writing. He took the paid robotics maintenance course and had first claim on a technician job. Coworkers who chose to leave got severance above the legal minimum.",
+  "rules": [
+   9,
+   10
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Customs broker",
+  "sector": "Transport and logistics",
+  "place": "customs brokerage, Emerson, Manitoba",
+  "before": "Keying shipment details from paper invoices into customs forms, one truck at a time, while drivers waited at the line.",
+  "after": "Software reads the invoices and fills the forms. The broker handles the shipments that don't fit, and caught it filing combine parts under the wrong tariff code for a week.",
+  "rules": [
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Terminal planner",
+  "sector": "Transport and logistics",
+  "place": "container terminal, Port of Vancouver",
+  "before": "Planning where every container goes in the yard with a printout and a radio, then redoing it when a ship ran late.",
+  "after": "Software plans the yard and the loading order. The planner overrules it when the weather turns or a crane crew is short, and every change shows up with her name on it.",
+  "rules": [
+   1,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Air cargo agent",
+  "sector": "Transport and logistics",
+  "place": "airline freight office, Iqaluit, Nunavut",
+  "before": "Working out weight and balance by hand for every flight, with groceries and medicine competing for the same space.",
+  "after": "Software does the weight and balance math. When there isn't room for everything, the agent decides what flies first. Insulin before pop is still a person's call.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Grocery buyer",
+  "sector": "Retail and service",
+  "place": "regional grocery office, Dartmouth, Nova Scotia",
+  "before": "Every Thursday, building orders from last year's sales reports and three binders of supplier specs.",
+  "after": "A forecast drafts the order. The buyer knows the minor hockey tournament doubles chip sales in town that weekend, so she changes it, and her changes are visible to the stores.",
+  "rules": [
+   1,
+   4
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Line cook",
+  "sector": "Retail and service",
+  "place": "bistro, Montreal",
+  "before": "Counting inventory and writing prep lists after close, when everyone just wanted to go home.",
+  "after": "Ordering and prep lists come out of the till system. The cook spends that hour teaching the new kid on the line, and the time saved went to earlier finishes and a raise.",
+  "rules": [
+   1,
+   8
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Call centre agent",
+  "sector": "Retail and service",
+  "place": "telecom call centre, Moncton, New Brunswick",
+  "before": "Most calls were password resets and bill questions, handled from a script. A chatbot was set to take nearly all of them.",
+  "after": "The team was told in writing, ninety days ahead. She retrained on paid time and moved to the escalations desk, where the angry and complicated calls go and someone has to listen.",
+  "rules": [
+   9
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Hotel front desk clerk",
+  "sector": "Retail and service",
+  "place": "mountain hotel, Banff, Alberta",
+  "before": "Checking in a tour bus at once, typing passport details while the line backed up to the door.",
+  "after": "Most guests check in on their phones. The clerk spends that time on the family whose flight landed at 2 a.m., and on the guest who needs a ground-floor room after knee surgery.",
+  "rules": [
+   1
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Service advisor",
+  "sector": "Retail and service",
+  "place": "car dealership, Red Deer, Alberta",
+  "before": "Writing up repair orders and phoning customers with quotes, back to back, while the bays waited.",
+  "after": "A tool reads the technician's notes and drafts the quote. The advisor calls the customer herself and says which repairs can wait. That honesty is why they keep coming back.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Accountant",
+  "sector": "Office and finance",
+  "place": "small accounting firm, Kelowna, British Columbia",
+  "before": "Tax season meant matching bank statements to receipts, line by line, well into the night.",
+  "after": "Software matches the transactions and flags the odd ones. The accountant sits down with the client and asks the questions that matter, like whether that new truck is really a business expense.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Paralegal",
+  "sector": "Office and finance",
+  "place": "law office, Yellowknife, Northwest Territories",
+  "before": "Weeks before a hearing went to reading disclosure documents and tagging every page by hand.",
+  "after": "A tool sorts and tags the documents. The paralegal checks its work, and found it had marked a key email as privileged when it wasn't. Every tag shows who made it, person or tool.",
+  "rules": [
+   3,
+   4,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Bank teller",
+  "sector": "Office and finance",
+  "place": "credit union branch, Humboldt, Saskatchewan",
+  "before": "Cash and cheques at the wicket, eight hours a day. Most members had moved that banking to their phones.",
+  "after": "Staff heard first, ninety days out. He took paid training and had first claim on a member advisor role, helping farm families with loans and older members who still want a face.",
+  "rules": [
+   9,
+   10
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Insurance adjuster",
+  "sector": "Office and finance",
+  "place": "claims office after a hailstorm, Calgary",
+  "before": "Hundreds of claims after one storm, and weeks of driving house to house with a ladder and a clipboard.",
+  "after": "Photos and drone images give a first estimate on simple claims. The adjuster goes in person on the hard ones, and no claim gets denied until a person has read the file.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "HR coordinator",
+  "sector": "Office and finance",
+  "place": "manufacturer's HR office, Cambridge, Ontario",
+  "before": "Hundreds of applications for each opening, plus a constant back and forth of emails to book interviews.",
+  "after": "Software sorts applications and books interviews, and it can't reject anyone. She reads every file it sets aside, which is how she found it screening out welders for gaps in their work history.",
+  "rules": [
+   2,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Mortgage underwriter",
+  "sector": "Office and finance",
+  "place": "credit union, Sydney, Nova Scotia",
+  "before": "Reading pay stubs and bank statements for every file and checking the math by hand.",
+  "after": "The system reads the documents and checks the math. The underwriter makes the call on files that don't fit the usual box, like a fisher whose whole income lands between May and December.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "911 dispatcher",
+  "sector": "Public service",
+  "place": "emergency communications centre, Saskatoon",
+  "before": "Typing addresses and checking unit locations while trying to keep a panicking caller on the line.",
+  "after": "The system finds the address and suggests the nearest unit. The dispatcher stays with the caller, talking a father through CPR until the paramedics are at the door.",
+  "rules": [
+   1
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Building inspector",
+  "sector": "Public service",
+  "place": "city permits office, Whitehorse, Yukon",
+  "before": "Checking permit drawings against the building code page by page, with a three-month backlog.",
+  "after": "Software screens drawings against the code first. The inspector makes every decision, and caught it passing a stair that was too steep. With the backlog down, she spends more days on site.",
+  "rules": [
+   2,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Child welfare social worker",
+  "sector": "Public service",
+  "place": "child and family services, Thompson, Manitoba",
+  "before": "More hours on case notes and forms than with the families on the caseload.",
+  "after": "Notes draft from her recordings, with the family's consent. The tool can flag a concern but no score decides anything. She knows the family, and she makes the call with them.",
+  "rules": [
+   2,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Public librarian",
+  "sector": "Public service",
+  "place": "public library, Rimouski, Quebec",
+  "before": "Long hours at the desk cataloguing new books and processing holds and renewals.",
+  "after": "Cataloguing and renewals mostly run themselves. The librarian runs a weekly drop-in for people who got a confusing letter from a government office and need help reading it.",
+  "rules": [
+   1
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Records clerk",
+  "sector": "Public service",
+  "place": "provincial records office, Victoria, British Columbia",
+  "before": "Twenty years of keying paper forms into the system and filing them. Most of those forms were moving online.",
+  "after": "The office told her a year ahead, well past the ninety days. She weighed retraining against severance, took the severance and the training money, and is now in a paid medical lab assistant program.",
+  "rules": [
+   9
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Income assistance worker",
+  "sector": "Public service",
+  "place": "provincial income assistance office, Fredericton",
+  "before": "Checking eligibility rules across a stack of paperwork for each application, with phones ringing behind.",
+  "after": "Software checks the paperwork and flags gaps. Only a person can deny an application. The worker spends more time on the hard cases, like a woman leaving a bad marriage with no paperwork at all.",
+  "rules": [
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Grade 4 teacher",
+  "sector": "Education",
+  "place": "elementary school, Steinbach, Manitoba",
+  "before": "Sunday nights marking spelling tests and math sheets, then planning the week from scratch.",
+  "after": "Practice work marks itself. He reads every report card comment before it goes home and gets his Sundays back. Monday mornings go to the students who are falling behind.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "French teacher",
+  "sector": "Education",
+  "place": "secondary school, Sherbrooke, Quebec",
+  "before": "Marking stacks of essays for grammar, with little time left to comment on the ideas.",
+  "after": "A tool marks grammar and spelling. She writes comments on what each student is actually trying to say, and one essay a term is written by hand in class, so the skill stays.",
+  "rules": [
+   1,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Education assistant",
+  "sector": "Education",
+  "place": "elementary school, Rankin Inlet, Nunavut",
+  "before": "Making an adapted version of every worksheet by hand for students with different needs.",
+  "after": "A tool drafts adapted worksheets, including versions in Inuktitut. The assistant and an Elder check every one before it reaches a student, and the Elder is paid for that review.",
+  "rules": [
+   2,
+   7
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Welding instructor",
+  "sector": "Education",
+  "place": "polytechnic campus, Prince Albert, Saskatchewan",
+  "before": "Grading theory quizzes and writing new tests every term for each section.",
+  "after": "Quizzes mark themselves. The instructor spends those hours in the shop, watching students weld and correcting their angle before a bad habit sets in.",
+  "rules": [
+   1,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Adult literacy tutor",
+  "sector": "Education",
+  "place": "community learning centre, Corner Brook, Newfoundland and Labrador",
+  "before": "Hours each week hunting for reading material adults would actually want to read, at the right level.",
+  "after": "A tool pulls articles about hunting season and hockey and rewrites them at the right level. The tutor checks each one, then sits beside the learner while he reads it aloud.",
+  "rules": [
+   1,
+   2
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Utility lineworker",
+  "sector": "Energy and resources",
+  "place": "rural power utility, eastern Ontario",
+  "before": "After an ice storm, driving back roads looking for downed lines one concession at a time.",
+  "after": "Smart meters and drones show where the outages are. The crew lead decides the order of repairs, and she put a dairy farm with a failing generator ahead of what the software ranked first.",
+  "rules": [
+   1,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Underground shift boss",
+  "sector": "Energy and resources",
+  "place": "nickel mine, Sudbury, Ontario",
+  "before": "Checking gas readings and ground conditions by hand, shift after shift, a kilometre down.",
+  "after": "Sensors read the gas and the ground all shift. The shift boss decides whether a drift is safe to enter, and has pulled crews out when the readings looked fine and the rock didn't sound right.",
+  "rules": [
+   2,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Forester",
+  "sector": "Energy and resources",
+  "place": "boreal forest, Lac-Saint-Jean, Quebec",
+  "before": "Weeks cruising timber on foot, measuring trees plot by plot for the harvest plan.",
+  "after": "Lidar maps the stand from the air. The forester walks the plots that matter, and found caribou calving ground the plan had marked for cutting. The cut was moved.",
+  "rules": [
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Control room operator",
+  "sector": "Energy and resources",
+  "place": "oil sands upgrader, Fort McMurray, Alberta",
+  "before": "Watching dozens of screens through a twelve-hour night shift, waiting for the one alarm that mattered.",
+  "after": "Software filters nuisance alarms and suggests responses. The operator makes every call on the plant. His crew's know-how went into the alarm rules, with their names on them and a bonus attached.",
+  "rules": [
+   2,
+   7
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Hydro station operator",
+  "sector": "Energy and resources",
+  "place": "generating station, Gillam, Manitoba",
+  "before": "Logging water levels and turbine readings on paper every hour through the night.",
+  "after": "Readings log on their own. The operator spends the shift walking the station and teaching new hires what a bearing sounds like before it fails.",
+  "rules": [
+   1,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Community reporter",
+  "sector": "Creative and media",
+  "place": "weekly newspaper, Smithers, British Columbia",
+  "before": "Hours transcribing interviews and council meeting recordings before writing a word.",
+  "after": "Transcripts come back in minutes. The reporter checks every quote against the tape before it runs, and caught the software putting a councillor's words in the mayor's mouth.",
+  "rules": [
+   3,
+   4,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Graphic designer",
+  "sector": "Creative and media",
+  "place": "design studio, Kitchener, Ontario",
+  "before": "Resizing the same ad into forty formats for every campaign, pixel by pixel.",
+  "after": "Software handles the resizes. The designer spends the time on the idea and still checks every version, because the tool keeps cropping the product out of the small ones.",
+  "rules": [
+   1,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Translator",
+  "sector": "Creative and media",
+  "place": "translation firm, Gatineau, Quebec",
+  "before": "Translating government reports from English to French, page by page. Machine translation started producing first drafts of most of them.",
+  "after": "The firm told staff ninety days ahead. She retrained on paid time as a reviser and signs off before anything is published. The work left is where one wrong word changes what a law means.",
+  "rules": [
+   9,
+   2
+  ],
+  "kind": "changed"
+ },
+ {
+  "role": "Documentary editor",
+  "sector": "Creative and media",
+  "place": "documentary production company, Toronto",
+  "before": "Days of logging footage, marking every shot by hand before the real edit could start.",
+  "after": "Software logs the footage. The editor shapes the story, and when the tool tagged part of an Elder's interview as silence, she knew that pause was the best moment in the film.",
+  "rules": [
+   1,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Software tester",
+  "sector": "Tech",
+  "place": "software company, Montreal",
+  "before": "Running the same regression tests by hand before every release, clicking through the same screens.",
+  "after": "Automated tests run overnight. The tester spends the day trying to break the app the way real people do, like a farmer on one bar of signal in a combine.",
+  "rules": [
+   1,
+   3
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "IT help desk technician",
+  "sector": "Tech",
+  "place": "regional health authority, Prince George, British Columbia",
+  "before": "Hundreds of tickets a week, most of them locked accounts and printer jams.",
+  "after": "A chatbot clears the routine tickets. The tech spends her days at the nursing stations, sorting out the problems that slow down care.",
+  "rules": [
+   1
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Security analyst",
+  "sector": "Tech",
+  "place": "bank operations centre, Toronto",
+  "before": "Sifting through thousands of security alerts a day, almost all of them false alarms.",
+  "after": "Software sorts the alerts and drafts incident reports. The analyst decides what's a real attack, and he spotted one the system had filed as routine because it looked like a normal login.",
+  "rules": [
+   2,
+   3,
+   5
+  ],
+  "kind": "composite"
+ },
+ {
+  "role": "Software developer",
+  "sector": "Tech",
+  "place": "agtech company, Guelph, Ontario",
+  "before": "Writing the same boilerplate code for every new feature, then hunting down typos in it.",
+  "after": "A coding assistant writes the routine code. The developer reviews every line before it ships, and keeps one day a sprint for writing code by hand, so she can still tell when the assistant is wrong.",
+  "rules": [
+   2,
+   5
+  ],
+  "kind": "composite"
+ }
+]

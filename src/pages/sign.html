@@ -1,0 +1,46 @@
+<!--meta {"path": "/sign/", "order": 65, "title": "Sign The Working Accord", "description": "Add your name to The Working Accord. Workers sign to say the ten rules are the floor. Employers sign all ten as a public commitment.", "crumb": "Sign"} -->
+<section class="page-hero">
+  <p class="crumb"><a href="{{base}}">Home</a> / Sign</p>
+  <h1><span class="hl">Sign</span> the accord</h1>
+  <p class="answer"><strong>Workers sign to say the ten rules are the floor. Employers sign all ten as a public commitment, or don't sign.</strong> Employers are listed with the date on the <a href="{{base}}signers/">signers page</a>. Workers' names are never published.</p>
+</section>
+<section class="sign">
+  <div class="sign-copy">
+    <h2>What signing means</h2>
+    <p><strong>As a worker:</strong> you're saying these rules are the minimum you expect when AI comes into your workplace. Your name is counted, never shown.</p>
+    <p><strong>As an employer:</strong> you commit to all ten <a href="{{base}}accord/">rules</a>, in writing, in public. If a worker reports a breach, we'll ask you to answer and note on the list whether you did.</p>
+    <p>Read the <a href="{{base}}privacy/">privacy note</a> before you sign.</p>
+  </div>
+  <form class="sign-form" id="signForm" novalidate>
+    <fieldset class="as">
+      <legend>I'm signing as</legend>
+      <label><input type="radio" name="as" value="worker" checked> A worker</label>
+      <label><input type="radio" name="as" value="employer"> An employer</label>
+    </fieldset>
+    <p class="note" id="employerNote" hidden>Employers sign all ten rules. Someone with authority to commit the organization should sign.</p>
+    <div class="field">
+      <label for="fName">Your name</label>
+      <input id="fName" name="name" autocomplete="name" required aria-describedby="eName">
+      <p class="err" id="eName" hidden></p>
+    </div>
+    <div class="field">
+      <label for="fEmail">Email</label>
+      <input id="fEmail" name="email" type="email" autocomplete="email" required aria-describedby="eEmail">
+      <p class="err" id="eEmail" hidden></p>
+    </div>
+    <div class="field employer-only" hidden>
+      <label for="fOrg">Organization</label>
+      <input id="fOrg" name="org" autocomplete="organization" aria-describedby="eOrg">
+      <p class="err" id="eOrg" hidden></p>
+    </div>
+    <div class="field">
+      <label for="fProv">Province or territory <span class="opt">(optional)</span></label>
+      <select id="fProv" name="prov" autocomplete="address-level1">
+        <option value="">Choose one</option>
+        <option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Nova Scotia</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Northwest Territories</option><option>Nunavut</option><option>Yukon</option>
+      </select>
+    </div>
+    <button type="submit" class="pill big">Add my name</button>
+    <p class="done" id="done" role="status" tabindex="-1" hidden></p>
+  </form>
+</section>
