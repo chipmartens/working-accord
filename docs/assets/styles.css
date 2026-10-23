@@ -548,3 +548,5 @@ h1 .ln,h2 .ln{display:block}
 .s-rules{display:inline-block;justify-self:start;background:var(--vis);padding:4px 10px;border-radius:4px;font-weight:600}
 .signer-list span:not(.s-name){font-size:16px;color:#2c2e2a}
 @media (max-width:900px){.signer-list li{grid-template-columns:1fr 1fr}.s-name{grid-column:1/-1}}
+.rule-detail dl:has(dt:nth-of-type(3)){grid-template-columns:1fr 1fr 1fr}
+@media (max-width:1000px){.rule-detail dl:has(dt:nth-of-type(3)){grid-template-columns:1fr}}
